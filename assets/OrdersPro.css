@@ -1,0 +1,220 @@
+.OSP_premium .premium_orderspro{
+    display:none;
+}
+.premium_orderspro{
+    background: #000000f7;
+    padding: 1px 11px 7px;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+}
+#save_settings_Orders_pro {
+    margin: 0px 25px;
+}
+.license-section input[type="text"] {
+    display: block;
+    width: 90%;
+    margin: 20px 0px;
+}
+.OSPO_itemorder{
+	display: block;
+    width: max-content;
+}
+.wc-backbone-modal-content {
+    width: 65%;
+}
+.OP_options > li{
+ display:none;   
+}
+.op_waiting{
+    animation: rotation 2s infinite cubic-bezier(1, -0.77, 0, 1.8);
+}
+.Orderes_products_table td img {
+    width: 100px;
+}
+.op-edit-image{
+    width: 11px;
+}
+.order_count_input {
+    font-weight: 500;
+    margin-top: 25px;
+}
+form.order_count_input input[type="number"] {
+    width: 15%;
+}
+.orderes_products_table td img {
+    width: 60px !important;
+}
+.subsubsub.statuslist a {
+    font-weight: normal;
+}
+
+td.wc-order-preview-table__column--stock div, td.wc-order-preview-table__column--Price div {
+    cursor: pointer;
+    text-align: center !important;
+    display: table-caption;
+}
+ td.wc-order-preview-table__column--stock div {
+display: inline-flex;
+}
+.orderes_products_table {
+    width: 98% !important;
+    margin-top: 25px !important;
+}
+.orderes_products_table td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+.orderes_products_table thead th {
+    text-align: center !important;
+}
+.orderes_products_table td:first-child {
+    background: white;
+}
+.OrderPro_loading
+{
+    background: #04a4cc;
+    border-radius: 50%;
+    width: 30px;
+    padding: 3px;
+    display:none;
+}
+.OrderPro_Done
+{
+    width: 30px;
+    padding: 5px;
+    display:none;
+}
+.wc-order-preview-table__column--stock p:after ,.wc-order-preview-table__column--total-price div:after {
+    content: attr(title);
+    display: block;
+    color: #808080;
+    font-size: x-small;
+    text-align: center;
+}
+.wc-order-preview .wc-order-preview-table td, .wc-order-preview .wc-order-preview-table th{
+    text-align: center !important;
+}
+.wc-order-preview .wc-order-preview-table .wc-order-preview-table__column--product {
+    text-align: left !important;
+}
+tr.wc-order-preview-table__item td {
+    vertical-align: middle !important;
+}
+.opicon{   
+    width: 25px;
+    margin: 0px 5px;
+    margin: 0px 20px;
+    vertical-align: middle !important;
+}
+.visibleicon{
+    float:right;
+    cursor: pointer;
+}
+.sort{
+        cursor: move;
+}
+    .ordersPro_columns_settings li {
+    background: #ffff;
+    padding: 15px;
+    width: 85%;
+    border: 1px solid #48484887;
+    border-radius: 2px;
+}
+
+.OP_options_menu {
+  background-color: white;
+  margin: 20px 20px -7px;
+  padding: 9px 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 4px 0px #a7a7a7;
+  display: flow-root;
+}
+.OP_options_section {
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 1px 3px 0px #c4c4c4;
+}
+.OP_options {
+  display: flex;
+}
+.OP_options_menu h3 {
+  color: #0381ec;
+  float: right;
+}
+
+.OP_options_menu li {
+  color: #0381ec;
+    margin-left: 15px;
+    border-left: 1px solid #9c9c9c;
+    padding-left: 10px;
+    cursor:pointer;
+    display: inline-block;
+}
+.OP_options_menu img {
+  width: 17px;
+  float: left;
+}
+img.opicon.visibleicon[data="false"] {
+    opacity: 0.4;
+}
+img.opicon.visibleicon[data="true"] {
+    opacity: 1;
+}
+@media only screen and (max-width: 750px) {
+   .enable_onMobile th#order_date,.enable_onMobile th#order_status,.enable_onMobile th#billing_address,.enable_onMobile th#shipping_address,.enable_onMobile th#order_total,.enable_onMobile th#seller,.enable_onMobile th#suborder,.enable_onMobile th#wc_actions {
+    display: none !important;
+}
+  .OP_options_section {
+    width: auto;
+  }
+  .OP_options_menu li {
+    display: inline;
+    border: 0 !important;
+    line-height: 37px;
+}
+  .OP_options {
+    display: grid;
+  }
+  .total_onMobile .column-order_total,.saler_onMobile .column-seller , .actions_onMobile .column-wc_actions,.Shipping_address_onMobile .column-shipping_address,.billing_address_onMobile .column-billing_address
+{
+ display:table !important;
+}
+.enable_onMobile #the-list td
+{
+    border: 0.5px solid #d1d1d1;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 2px 0px!important;
+}
+.enable_onMobile .order_mobile_display #the-list td:not(.hidden):not(.suborder) {
+    display: flex !important;
+    text-align: revert;
+}
+.enable_onMobile #the-list td:before {
+     display: none !important;
+}
+.enable_onMobile th.check-column {
+    vertical-align: top !important;
+}
+.column-order_status mark {
+    margin-bottom: 4px;
+}
+.enable_onMobile tfoot {
+    display: none;
+}
+.enable_onMobile .order-status {
+    margin-top: 5px !important
+}
+.enable_onMobile .column-primary {
+    border-right: 0px !important;
+    text-align: start !important;
+}
+.enable_onMobile th.check-column {
+    border-bottom: 0.5px solid #d1d1d1;
+    border-top: 0.5px solid #d1d1d1;
+}
+}

@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: Orders Pro premium\n"
+"POT-Creation-Date: 2021-04-11 18:17+0430\n"
+"PO-Revision-Date: 2021-10-12 10:45+0330\n"
+"Language-Team: rezaplus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: orders-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: rezaplus\n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions/Options.php:23 pages/Options/Translations.php:6
+#: pages/Options/Translations.php:7
+msgid "In stock"
+msgstr "In stock"
+
+#: functions/Options.php:24 pages/Options/Translations.php:9
+#: pages/Options/Translations.php:10
+msgid "Out of stock"
+msgstr "Out of stock"
+
+#: functions/Options.php:25 pages/Options/Translations.php:12
+#: pages/Options/Translations.php:13
+msgid "Low in stock"
+msgstr "Low in stock"
+
+#: functions/Options.php:26 pages/Options/Translations.php:15
+#: pages/Options/Translations.php:16
+msgid "On backorder"
+msgstr "On backorder"
+
+#: functions/OrdersPreview.php:3 pages/Options/OrderPreviewColumns.php:10
+msgid "ID"
+msgstr "ID"
+
+#: functions/OrdersPreview.php:4 pages/Options/OrderPreviewColumns.php:5
+#: pages/Options/Orders.php:34 pages/Orderes_products.php:54
+#: premium/pages/Orderes_products.php:58
+msgid "Image"
+msgstr "Image"
+
+#: functions/OrdersPreview.php:5 pages/Options/OrderPreviewColumns.php:7
+msgid "Category"
+msgstr "Category"
+
+#: functions/OrdersPreview.php:6 orders-pro-premium.php:155
+#: pages/Options/OrderPreviewColumns.php:3 pages/Options/Orders.php:30
+#: pages/Options/Orders.php:37 pages/Orderes_products.php:31
+#: pages/Orderes_products.php:57 premium/pages/Orderes_products.php:31
+#: premium/pages/Orderes_products.php:61
+msgid "Product"
+msgstr "Product"
+
+#: functions/OrdersPreview.php:7 pages/Options/OrderPreviewColumns.php:8
+msgid "Stock"
+msgstr "Stock"
+
+#: functions/OrdersPreview.php:8 pages/Options/OrderPreviewColumns.php:4
+#: pages/Options/Orders.php:40 pages/Orderes_products.php:60
+#: premium/pages/Orderes_products.php:64
+msgid "Quantity"
+msgstr "Quantity"
+
+#: functions/OrdersPreview.php:9 pages/Options/OrderPreviewColumns.php:6
+#: pages/Options/Orders.php:11
+msgid "Total"
+msgstr "Total"
+
+#: functions/OrdersPreview.php:10 pages/Options/OrderPreviewColumns.php:9
+#: pages/Options/Orders.php:43 pages/Orderes_products.php:63
+#: premium/pages/Orderes_products.php:67
+msgid "Price"
+msgstr "Price"
+
+#: functions/OrdersPreview.php:11 pages/Options/OrderPreviewColumns.php:13
+#: pages/Options/Orders.php:14
+msgid "Vendor"
+msgstr "Vendor"
+
+#: functions/OrdersPreview.php:12 pages/Options/OrderPreviewColumns.php:11
+msgid "Tax"
+msgstr "Tax"
+
+#: orders-pro-premium.php:66
+msgid "premium"
+msgstr "غیر رایگان"
+
+#: orders-pro-premium.php:141
+msgid "Regular price"
+msgstr "Regular price"
+
+#: orders-pro-premium.php:142
+msgid "Sale price"
+msgstr "Sale price"
+
+#: orders-pro-premium.php:143
+msgid "Please enter in a value less than the regular price."
+msgstr "لطفا مقدار کمتری از قیمت عادی وارد کنید."
+
+#: orders-pro-premium.php:144
+msgid "Enable stock management"
+msgstr "فعال سازی مدیریت انبار"
+
+#: orders-pro-premium.php:145 premium/functions/OrdersPreview/columns.php:27
+msgid "Manage stock"
+msgstr "Manage stock"
+
+#: orders-pro-premium.php:145 premium/functions/OrdersPreview/columns.php:27
+msgid "Inactive"
+msgstr "Inactive"
+
+#: orders-pro-premium.php:146
+msgid "Stock qty"
+msgstr "Stock qty"
+
+#: orders-pro-premium.php:153
+msgid "Orders Pro"
+msgstr "سفارشات حرفه ای"
+
+#: orders-pro-premium.php:155 pages/Options/Orders.php:30
+#: pages/Orderes_products.php:31 premium/pages/Orderes_products.php:31
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr "Orders"
+
+#: orders-pro-premium.php:155
+msgid "Products"
+msgstr "Products"
+
+#: orders-pro-premium.php:188
+msgid "Orders Pro require WooCoommerce is Activate."
+msgstr "برای افزونه سفارشات حرفه ای فعال بودن افزونه ووکامرس اجباری می باشد."
+
+#: pages/Options/OrderPreviewColumns.php:1
+msgid "Customize order preview columns"
+msgstr "سفارشی سازی ستون های پیش نمایش سفارش"
+
+#: pages/Options/OrderPreviewColumns.php:1
+msgid "Activate and prioritize columns"
+msgstr "ستون ها را فعال و اولویت بندی کنید"
+
+#: pages/Options/Orders.php:3
+msgid "Screen Options"
+msgstr "Screen Options"
+
+#: pages/Options/Orders.php:3
+msgid "On mobile"
+msgstr "در موبایل"
+
+#: pages/Options/Orders.php:4
+msgid ""
+"By activating this section, you can see more details of orders in the mobile "
+"screen."
+msgstr ""
+"با فعال کردن این بخش، می توانید جزئیات بیشتری از سفارشات را در صفحه موبایل "
+"مشاهده کنید."
+
+#: pages/Options/Orders.php:7 premium/pages/Options/License.php:24
+msgid "Activate"
+msgstr "Activate"
+
+#: pages/Options/Orders.php:17
+msgid "Actions"
+msgstr "Actions"
+
+#: pages/Options/Orders.php:20
+msgid "Shipping Address"
+msgstr "Shipping Address"
+
+#: pages/Options/Orders.php:23
+msgid "Billing Address"
+msgstr "Billing Address"
+
+#: pages/Options/Orders.php:31
+msgid "This page displays orders based on purchased products"
+msgstr "در این صفحه محصولات سفارش شده را یکجا نمایش می دهد"
+
+#: pages/Options/Orders.php:46 pages/Orderes_products.php:66
+#: premium/pages/Orderes_products.php:70
+msgid "Order"
+msgstr "Order"
+
+#: pages/Options/Translations.php:2 pages/options.php:6
+msgid "Translations"
+msgstr "ترجمه ها"
+
+#: pages/Options/Translations.php:3
+msgid "You can use lowercase for better display"
+msgstr "می توانید از کلمات کوچکتر برای نمایش بهتر استفاده کنید"
+
+#: pages/Orderes_products.php:99 premium/pages/Orderes_products.php:100
+msgid "Rows"
+msgstr "ردیف"
+
+#: pages/Orderes_products.php:131 premium/pages/Orderes_products.php:130
+msgid "Number of orders"
+msgstr "Number of orders"
+
+#: pages/Orderes_products.php:133 premium/pages/Orderes_products.php:132
+msgid "Run"
+msgstr "Run"
+
+#: pages/options.php:4
+msgid "Orders"
+msgstr "Orders"
+
+#: pages/options.php:5
+msgid "Preview"
+msgstr "Preview"
+
+#: pages/options.php:8 premium/pages/Options/License.php:18
+msgid "License"
+msgstr "لایسنس"
+
+#: pages/options.php:19
+msgid "Save changes"
+msgstr "Save changes"
+
+#: premium/functions/OrdersPreview/columns.php:23
+#, php-format
+msgid "%s in stock"
+msgstr "%s in stock"
+
+#: premium/functions/update.php:73
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: premium/functions/update.php:78
+msgid "An unknown error occurred"
+msgstr "An unknown error occurred"
+
+#: premium/pages/Options/License.php:20
+msgid "Enter your license key"
+msgstr "کد لایسنس را وارد کنید"
+
+#: premium/pages/Options/License.php:29
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: premium/pages/Options/License.php:32
+msgid "If you don`t have a license key, click here to obtain a license key ."
+msgstr "اگر شما کد لایسنس ندارید، برای تهیه اینجا کلیک کنید."
+
+#: premium/premium.php:38
+msgid ""
+"Please activate Orders pro plugin with your license key to all features work."
+msgstr "لطفا نسبت به فعال سازی افزونه Orders pro  اقدام نمایید."
+
+#. Plugin Name of the plugin/theme
+msgid "Orders Pro premium"
+msgstr "سفارشات حرفه ای - پریمیوم"
+
+#. Plugin URI of the plugin/theme
+msgid "\"\""
+msgstr "\"\""
+
+#. Description of the plugin/theme
+msgid "Professionally Customize  admin-side orders page and enjoy it."
+msgstr "بصورت حرفه ای سفارشات را سفارشی سازی کنید و لذت ببرید."
+
+#. Author of the plugin/theme
+msgid "@rezaplus"
+msgstr "@rezaplus"
+
+#. Author URI of the plugin/theme
+msgid "\"rellaco.com\""
+msgstr "\"rellaco.com\""

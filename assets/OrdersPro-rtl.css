@@ -1,0 +1,10 @@
+.visibleicon {
+    float: left;
+}
+.OP_options_menu h3
+{
+    float:left !important;
+}
+body .wc-order-preview .wc-order-preview-table .wc-order-preview-table__column--product {
+    text-align: right !important;
+}
