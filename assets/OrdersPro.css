@@ -1,12 +1,23 @@
 .OSP_premium .premium_orderspro{
     display:none;
 }
-.premium_orderspro{
-    background: #000000f7;
-    padding: 1px 11px 7px;
-    color: #fff;
-    border-radius: 12px;
+.premium_orderspro {
     text-decoration: none;
+    color: #b32d2e;
+    font-size: 16px;
+    line-height: 18px;
+}
+.OSPO_tooltip:hover:after {
+    content: attr(data-tooltip);
+    background: #32373cb5;
+    color: #fff;
+    padding: 6px 11px;
+    position: absolute;
+    border-radius: 6px;
+    line-height: normal;
+    font-size: 12px;
+    margin-top: -3px;
+    font-family: sans-serif;
 }
 #save_settings_Orders_pro {
     margin: 0px 25px;
@@ -103,7 +114,6 @@ tr.wc-order-preview-table__item td {
 }
 .opicon{   
     width: 25px;
-    margin: 0px 5px;
     margin: 0px 20px;
     vertical-align: middle !important;
 }
@@ -113,6 +123,7 @@ tr.wc-order-preview-table__item td {
 }
 .sort{
         cursor: move;
+        margin-left: 0px !important;
 }
     .ordersPro_columns_settings li {
     background: #ffff;

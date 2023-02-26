@@ -7,10 +7,9 @@
  * Author URI: https://rellaco.com
  * Text Domain: OrderPro_domain
  *
- * Version: 1.7
- * Requires PHP: 5.6
- * WC requires at least: 4.7.0
- * WC tested up to: 5.7.1
+ * Version: 1.8
+ * Requires at least: 5.0
+ * Requires PHP: 7.0
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,7 +24,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define('OrdersPro_version', "1.7");
+define('OrdersPro_version', "1.8");
 define('OrdersPro_License_Version', "free");
 
 class OSPO_OrdersPro{
@@ -64,7 +63,7 @@ class OSPO_OrdersPro{
         $this->define('OrdersPro_pages_url',admin_url('admin.php').'?page=');
 		$this->define('OSPO_img_dir',OrderPro_DIR . 'assets/img/');
 
-        $premiumHTML =' <a class="premium_orderspro" href="https://wordpress.org/plugins/orders-pro/"> '.esc_html__("premium","OrderPro_domain") .' </a>';
+        $premiumHTML =' <a class="premium_orderspro dashicons dashicons-lock OSPO_tooltip" data-tooltip="Premium Feature" href="https://rellaco.com/product/orderspro-premium/" target="_blank"></a>';
         $this->define('OSPO_premiumHTML', $premiumHTML);
     }
     public function include_exceptions(){
@@ -155,7 +154,7 @@ class OSPO_OrdersPro{
     }
     public function Admin_menu() {
 
-    add_menu_page(esc_html__("Orders Pro",'OrderPro_domain'), esc_html__("Orders Pro",'OrderPro_domain') , 'manage_options', 'OrdersPro_settings', 'OSPO_display_orderspro_tab_content', OSPO_img_dir.'icon-20.png', 150);
+    add_menu_page(esc_html__("Orders Pro",'OrderPro_domain'), esc_html__("Orders Pro",'OrderPro_domain') , 'manage_options', 'OrdersPro_settings', 'OSPO_display_orderspro_tab_content', 'dashicons-screenoptions', 150);
 	
     add_submenu_page( 'woocommerce',  esc_html_x('Orders', 'Admin menu name', 'woocommerce')."(".esc_html__('Products','woocommerce').")",  esc_html_x('Orders', 'Admin menu name', 'woocommerce')."(".esc_html__('Product','woocommerce').")", 'manage_options', 'orderes_products', 'OSPO_display_Orderes_products',2 );
 

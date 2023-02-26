@@ -1,10 +1,10 @@
 === Orders Pro ===
 Contributors: Rellaco, rezaplus
 Tags: woocommerce orders, wc orders, order preview, ordered products, orders pro, orders, custom order preview, custom order preview columns, Show product's image in Order preview, order items list, customise woocommerce admin orders
-Requires at least: 4.7.0
-Requires PHP: 5.6
-Tested up to: 5.8.1
-Stable tag: 1.7
+Requires at least: 5.0
+Requires PHP: 7.0
+Tested up to: 6.1
+Stable tag: 1.8
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 

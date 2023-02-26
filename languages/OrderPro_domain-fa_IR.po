@@ -94,8 +94,8 @@ msgid "Tax"
 msgstr "Tax"
 
 #: orders-pro-premium.php:66
-msgid "premium"
-msgstr "غیر رایگان"
+msgid "Premium Feature"
+msgstr "ویژگی حرفه ای";
 
 #: orders-pro-premium.php:141
 msgid "Regular price"
